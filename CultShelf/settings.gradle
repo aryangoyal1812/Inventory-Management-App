@@ -1,0 +1,2 @@
+rootProject.name='Cult Shelf'
+include ':app'
