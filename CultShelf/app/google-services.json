@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "703148337876",
+    "firebase_url": "https://cultshelf.firebaseio.com",
+    "project_id": "cultshelf",
+    "storage_bucket": "cultshelf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703148337876:android:03bea4ad92ea24ebc02941",
+        "android_client_info": {
+          "package_name": "com.example.cultshelf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703148337876-rlp4stou0mbauu8d7gv29pe5d8jsagmo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cultshelf",
+            "certificate_hash": "81ff83f7d1c94682ea5702ac92c674bd77426972"
+          }
+        },
+        {
+          "client_id": "703148337876-ladejliuu4b304g9te5hhcrmto7f66br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpXB6hUC8P2nA_KM2gZdFdWwk2yPC1jGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703148337876-ladejliuu4b304g9te5hhcrmto7f66br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
