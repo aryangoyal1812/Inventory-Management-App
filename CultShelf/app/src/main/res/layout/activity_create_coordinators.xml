@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".CreateCoordinatorsActivity">
+
+    <EditText
+        android:id="@+id/coordinator_name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/edittext_round_shape"
+        android:gravity="top"
+        android:hint="Coordinator Name"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textSize="@dimen/cedittextSize"
+        android:layout_margin="12dp"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/coordinator_Email_Id"
+        android:layout_below="@+id/coordinator_name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textSize="@dimen/cedittextSize"
+        android:layout_margin="12dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/edittext_round_shape"
+        android:hint="Institute Email ID"
+        android:padding="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/coordinator_Email_Id"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/create_club_Button"
+        android:layout_below="@+id/coordinator_Email_Id"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/coordinator_Email_Id"
+        android:layout_margin="12dp"
+        android:text="ADD"
+        android:onClick="AddCoordinator"
+        android:background="@drawable/button"/>
+
+
+</RelativeLayout>

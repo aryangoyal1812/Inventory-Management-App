@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/bell_button"
+
+        android:icon="@drawable/ic_baseline_notifications_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/sign_out_button"
+
+        android:icon="@drawable/ic_outline_power_settings_new_24"
+        app:showAsAction="always"/>
+</menu>

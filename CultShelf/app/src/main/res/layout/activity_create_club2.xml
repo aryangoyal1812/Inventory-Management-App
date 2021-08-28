@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context=".CreateClubActivity">
+
+
+    <ImageView
+        android:id="@+id/club_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:hint="add Logo"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/imageview_circle"/>
+
+    <EditText
+        android:id="@+id/clubName"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/club_logo"
+        android:hint="Club Name"
+        android:textColor="#fff"
+        android:textSize="@dimen/cedittextSize"
+        android:textColorHint="#fff"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_round_shape"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/create_club_Button"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clubName"
+        android:layout_margin="12dp"
+        android:text="Create"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:onClick="createClub"
+        android:background="@drawable/button"/>
+
+
+</RelativeLayout>
