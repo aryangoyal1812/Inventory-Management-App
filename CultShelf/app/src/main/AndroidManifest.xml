@@ -16,11 +16,12 @@
         <activity android:name=".AddMemberActivity" />
         <activity android:name=".CreateProductActivity" />
         <activity android:name=".ProductActivity" />
-        <activity android:name=".modals.ProductActivity" />
+<!--        <activity android:name=".modals.ProductActivity" />-->
         <activity android:name=".CreateClubActivity" />
         <activity
             android:name=".SplashScreenActivity"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/SplashTheme"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
